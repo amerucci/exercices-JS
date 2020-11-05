@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Défi JS - 09</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-between mb-3">
+
+            <div class="logo-acs"><img
+                    src="https://www.accesscodeschool.fr/wp-content/uploads/2018/10/logo_acs_noir.png"
+                    style="max-height: 66px; max-width: 200px;" />
+            </div>
+
+
+            <div class="logo-ofp"> <img src="https://www.onlineformapro.com/wp-content/uploads/2020/01/logo-03.svg"
+                    style="max-height: 66px; max-width: 200px;" />
+            </div>
+
+        </div>
+
+        <div class="jumbotron">
+            <h1>Defi JS - 09</h1>
+            <p>La personne va saisir une date au format jj/mm/aaaa. En dessous elle
+                choisie la langue d'après la liste déroulante proposée. Faire la fonction qui affichera la date logngue
+                d'après la langue choisie lorsqu'elle clique sur le bouton Run. Si je saisie la date du 01/10/2013 et
+                choisie la langue française après avoir cliqué sur le bouton run alors le résultat affiché sera mardi 01
+                octobre 2013, par contre ci j'ai choisi la langue allemande alors la date longue affichée sera
+                Dienstag, 1. Oktober 2013....</p>
+        </div>
+        <h2>Résultat</h2>
+        <div>
+            <div>
+                <label for="yourDate">Date</label>
+                <input type="text" id="yourDate" name="yourDate">
+            </div>
+            <div>
+                <label for="language">Langue</label>
+                <select name="language" id="language">
+                    <option value="fr-FR">Français</option>
+                    <option value="de-DE">Allemand</option>
+                    <option value="it-IT">Italien</option>
+                </select>
+            </div>
+            <div>
+                <button>Run</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
